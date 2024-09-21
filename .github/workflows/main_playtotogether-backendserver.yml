@@ -29,7 +29,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: java-app
-          path: "${{ github.workspace }}/build/libs/*.jar" # Gradle 빌드 결과물 경로
+          path: "${{ github.workspace }}/build/libs/*.jar" # 빌드 경로
 
   deploy:
     runs-on: ubuntu-latest
@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: "playtotogether-backendserver"
           slot-name: "Production"
-          package: "*.jar"
+          package: "./build/libs/*-SNAPSHOT.jar" # 특정 파일로 경로 명확화
