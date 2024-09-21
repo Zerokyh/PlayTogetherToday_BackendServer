@@ -12,8 +12,8 @@ import playtotogerther.API.util.Code;
 import playtotogerther.API.util.ResponseMessage;
 import playtotogerther.API.util.Status;
 
-@CrossOrigin(origins = "http://localhost:3000")
-//@CrossOrigin(origins = "https://victorious-pond-07ef29800.5.azurestaticapps.net")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://victorious-pond-07ef29800.5.azurestaticapps.net")
 @RestController
 public class UserProfileController {
     @Autowired

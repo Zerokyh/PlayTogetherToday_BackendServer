@@ -11,7 +11,8 @@ import playtotogerther.API.repository.MemberInfoRepository;
 import java.util.Optional;
 
 @Controller
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://victorious-pond-07ef29800.5.azurestaticapps.net")
 public class MemberInformation {
 
     @Autowired

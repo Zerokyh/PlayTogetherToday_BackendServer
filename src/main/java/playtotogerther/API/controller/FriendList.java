@@ -10,7 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://victorious-pond-07ef29800.5.azurestaticapps.net")
 public class FriendList {
 
     @Autowired
